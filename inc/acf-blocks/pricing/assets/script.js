@@ -1,0 +1,1 @@
+(()=>{var a;(a=jQuery)(".pricing-plan").each((function(){var n=a(this);a(this).find(".toggle input").change((function(){var t=a(this).prop("checked")?"yearly":"monthly";n.attr("data-plan",t)}))}))})();

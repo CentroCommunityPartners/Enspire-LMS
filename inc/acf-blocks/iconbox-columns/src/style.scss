@@ -1,0 +1,57 @@
+.block-iconbox-columns {
+  position: relative;
+
+
+  &::before {
+    content: '';
+    position: absolute;
+    //left: -120px;
+    //width: 1180px;
+    left: 0;
+    top: 140px;
+    width: 100%;
+    height: calc(100% - 140px);
+    background: var(--gradient-primary);
+    z-index: 1;
+  }
+
+  & > div {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.iconbox {
+  background-color: #1F1F1F;
+  color: #fafafa;
+  padding: 50px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin-bottom: 0;
+    line-height: 1.2;
+    text-align: center;
+    color: #fafafa;;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    margin-right: 20px;
+    border-radius: 999px;
+    background-color: #502C70;
+
+    img {
+      width: 100%;
+      max-width: calc(100% - 20px);
+    }
+  }
+}

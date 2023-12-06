@@ -1,0 +1,29 @@
+.learndash-course-grid .pagination .load-more {
+  font-size: 18px;
+  background-color: #155873;
+  border: none;
+  &:hover {
+    background-color: #155873;
+    box-shadow: 0px 4px 40px 0px rgba(125, 197, 184, 0.35);
+  }
+}
+
+.ld-expand-button .ld-icon-arrow-down {
+  &::before {
+    color: #f1f1f1 !important;
+    font-size: 16px !important;
+  }
+}
+
+.ld-item-list-actions .ld-expand-button {
+  color: white !important;
+}
+
+.ld-status.ld-status-complete {
+  color: white !important;
+}
+
+.gfield_radio {
+  display: flex;
+  justify-content: space-evenly;
+}

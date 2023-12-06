@@ -1,0 +1,106 @@
+div#cover-image-container {
+  margin-top: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.main-navs.bp-navs.bb-single-main-nav {
+  display: flex !important;
+  justify-content: center;
+}
+
+.bb-user-content-wrap {
+  .user-nicename {
+    text-transform: uppercase;
+    color: #b0bf3c !important;
+  }
+}
+
+.bp-profile-wrapper.need-separator .group-separator-block {
+  border: none;
+  border-radius: 0;
+}
+
+.bb-header-buttons {
+  .signin-button {
+    border: 1px solid #b0bf3c !important;
+    border-radius: 3px;
+    padding: 2px 20px !important;
+  }
+  .signup {
+    font-weight: 600;
+    border-radius: 3px !important;
+  }
+}
+
+// user loged in
+.dashboard-header {
+  padding-top: 50px;
+  .page-title {
+    color: #262626 !important;
+  }
+  .user-badge__avatar {
+    .avatar {
+      border-radius: 0;
+      max-width: 180px;
+    }
+  }
+  .user-badge__info {
+    padding-left: 20px;
+    .user-badge__title {
+      font-size: 42px;
+      margin: 0;
+      .span-greating {
+        font-weight: 400;
+      }
+      .span-name {
+        font-size: 42px;
+        font-weight: 700;
+      }
+    }
+    .user-badge__subtitle {
+      font-size: 18px;
+    }
+  }
+}
+
+.icon-list.icon-list-menu {
+  margin-top: 50px;
+  background-color: #ffffff;
+  @media (max-width: 767px) {
+    flex-wrap: wrap;
+  }
+  .icon-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:not(:last-child) {
+      border-right: 1px solid lightgray;
+    }
+    @media (max-width: 767px) {
+      padding: 20px 0;
+    }
+  }
+  .icon-list-item__icon {
+    background-color: #b0bf3c;
+    border-radius: 50%;
+    padding: 40px;
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+.bb-single-course-sidebar a.btn-advance {
+  background-color: white !important;
+  &:hover {
+    background-color: #b0bf3c !important;
+    color: #ffffff;
+  }
+}

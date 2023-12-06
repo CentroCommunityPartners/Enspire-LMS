@@ -1,0 +1,48 @@
+{
+  "name": "tailwind_wordpress_enspire",
+  "version": "1.0.0",
+  "description": "Wordpress theme that use Laravel Mix to compile its assets ",
+  "main": "index.js",
+  "author": "Gicu",
+  "license": "IMT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cross-env": "^7.0.3",
+    "daisyui": "^2.28.0",
+    "laravel-mix": "^6.0.2",
+    "laravel-mix-bundle-analyzer": "^1.0.5",
+    "mix-tailwindcss": "^1.3.0",
+    "postcss": "^8.4.5",
+    "postcss-mixins": "^7.0.2",
+    "postcss-simple-vars": "^6.0.2",
+    "sass": "^1.32.10",
+    "sass-loader": "^11.0.1",
+    "tailwindcss": "^3.0.7"
+  },
+  "dependencies": {
+    "acorn": "^8.6.0",
+    "autocompleter": "^6.1.0",
+    "browser-sync": "^2.26.13",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "cash-dom": "^8.1.0",
+    "dayjs": "^1.10.3",
+    "lodash": "^4.17.21",
+    "map-nearest-location": "^1.1.3",
+    "postcss-custom-properties": "^10.0.0",
+    "postcss-import": "^14.0.0",
+    "postcss-nested": "^5.0.3",
+    "postcss-nested-ancestors": "^2.0.0",
+    "tailwind-safelist-generator": "^1.0.0",
+    "tippy.js": "^6.3.1",
+    "vanilla-js-accordion": "^1.1.3",
+    "vanilla-js-tabs": "^1.0.4"
+  },
+  "scripts": {
+    "development": "mix",
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "mix --production"
+  }
+}

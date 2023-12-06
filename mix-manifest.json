@@ -1,0 +1,20 @@
+{
+    "/assets/js/theme.js": "/assets/js/theme.js",
+    "/assets/js/theme-admin.js": "/assets/js/theme-admin.js",
+    "/assets/js/theme-gutenberg.js": "/assets/js/theme-gutenberg.js",
+    "/assets/js/theme-member.js": "/assets/js/theme-member.js",
+    "/inc/acf-blocks/map/assets/script.js": "/inc/acf-blocks/map/assets/script.js",
+    "/inc/acf-blocks/pricing/assets/script.js": "/inc/acf-blocks/pricing/assets/script.js",
+    "/inc/acf-blocks/steps/assets/script.js": "/inc/acf-blocks/steps/assets/script.js",
+    "/inc/modules/more-filters/assets/more-filters.js": "/inc/modules/more-filters/assets/more-filters.js",
+    "/assets/css/theme-inline.css": "/assets/css/theme-inline.css",
+    "/assets/css/theme-member.css": "/assets/css/theme-member.css",
+    "/assets/css/theme-gutenberg.css": "/assets/css/theme-gutenberg.css",
+    "/assets/css/theme-admin.css": "/assets/css/theme-admin.css",
+    "/assets/css/theme.css": "/assets/css/theme.css",
+    "/inc/acf-blocks/slider-testimonials/assets/style.css": "/inc/acf-blocks/slider-testimonials/assets/style.css",
+    "/inc/acf-blocks/iconbox-columns/assets/style.css": "/inc/acf-blocks/iconbox-columns/assets/style.css",
+    "/inc/acf-blocks/steps/assets/style.css": "/inc/acf-blocks/steps/assets/style.css",
+    "/inc/acf-blocks/pricing/assets/style.css": "/inc/acf-blocks/pricing/assets/style.css",
+    "/inc/acf-blocks/map/assets/style.css": "/inc/acf-blocks/map/assets/style.css"
+}

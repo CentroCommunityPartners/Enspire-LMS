@@ -1,0 +1,45 @@
+.bb-header-buttons {
+  .signin-button {
+    border: 1px solid #b0bf3c !important;
+    border-radius: 3px;
+    padding: 0 20px !important;
+  }
+  .signup {
+    font-weight: 600;
+    border-radius: 3px !important;
+  }
+}
+
+#primary-navbar {
+  justify-content: flex-end !important;
+}
+.header-aside-inner {
+  flex-direction: row-reverse;
+}
+.btn-signup {
+  display: flex !important;
+  align-items: center !important;
+  &:hover a::before {
+    content: none !important;
+  }
+  a {
+    border: 1px solid #b0bf3c !important;
+    background-color: #155873;
+    color: #fff !important;
+    font-weight: bold !important;
+    border-radius: 4px;
+    height: 40px !important;
+    margin: 0 !important;
+    padding: 19px 15px !important;
+  }
+}
+
+.login.bb-login .button-primary,
+.login.bb-login .wp-generate-pw,
+.login.wp-core-ui .button-primary {
+  color: #b0bf3c !important;
+}
+
+.button.bb-confirm-leave-group {
+  color: #fff !important;
+}

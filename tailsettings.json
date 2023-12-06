@@ -1,0 +1,103 @@
+{
+  "daisyui": {
+    "themes": [
+      {
+        "enspire": {
+          "primary": "#155873",
+          "primary-focus": "#155873",
+          "primary-content": "#ffffff",
+          "secondary": "#cfe5e3",
+          "secondary-focus": "#B0BF3C",
+          "secondary-content": "#B0BF3C",
+          "accent": "#192f59",
+          "accent-focus": "#1b169c",
+          "accent-content": "#ffffff",
+          "neutral": "#2C2731",
+          "neutral-focus": "#443D4B",
+          "neutral-content": "#ffffff",
+          "base-100": "#ffffff",
+          "base-200": "#FAFAFA",
+          "base-300": "#C4C4C4",
+          "base-content": "#33333c",
+          "info": "#94DCDC",
+          "success": "#C6E176",
+          "warning": "#fec42d",
+          "error": "#f72424",
+          "--rounded-box": "3px",
+          "--rounded-btn": "3px",
+          "--rounded-badge": "3px",
+          "--tab-radius": "3px"
+        }
+      }
+    ],
+    "base": false,
+    "utils": true
+  },
+  "theme": {
+    "colors": {
+      "primary": "#155873",
+      "primary-focus": "#155873",
+      "primary-content": "#ffffff",
+      "secondary": "#cfe5e3",
+      "secondary-focus": "#B0BF3C",
+      "secondary-content": "#B0BF3C",
+      "accent": "#192f59",
+      "accent-focus": "#1b169c",
+      "accent-content": "#ffffff",
+      "neutral": "#2C2731",
+      "neutral-focus": "#443D4B",
+      "base-100": "#ffffff",
+      "base-200": "#FAFAFA",
+      "base-300": "#C4C4C4",
+      "base-content": "#33333c",
+      "info": "#94DCDC",
+      "success": "#C6E176",
+      "warning": "#fec42d",
+      "error": "#DC3C67"
+    },
+    "fontSize": {
+      "3xs": ["0.63rem", "1.3"],
+      "2xs": ["0.81rem", "1.5"],
+      "xs": ["0.88rem", "1.5"],
+      "sm": ["0.94rem", "1.5"],
+      "base": ["1rem", "1.5"],
+      "lg": ["1.125rem"],
+      "xl": ["1.25rem"],
+      "2xl": ["1.375rem"],
+      "3xl": ["1.625rem"],
+      "4xl": ["2rem"],
+      "5xl": ["2.8rem"],
+      "6xl": ["3.13rem"]
+    },
+    "fontFamily": {
+      "primary": ["Poppins", "sans-serif"]
+    },
+    "screens": {
+      "xs": "375px",
+      "sm": "576px",
+      "md": "768px",
+      "lg": "992px",
+      "xl": "1200px"
+    },
+    "container": {}
+  },
+  "content": [
+    "./index.php",
+    "./front-page.php",
+    "./page.php",
+    "./home.php",
+    "./header.php",
+    "./footer.php",
+    "./search.php",
+    "./tpl-page-sectie.php",
+    "./template-parts/*.php",
+    "./template-parts/*/*.php",
+    "./inc/*.php",
+    "./inc/*/*.php",
+    "./inc/modules/more-filters/templates/*.php",
+    "./inc/modules/more-filters/inc/*.php",
+    "./inc/modules/search-grouped/templates/*.php",
+    "./inc/acf-blocks/*/inc/*.php",
+    "./safelist.txt"
+  ]
+}

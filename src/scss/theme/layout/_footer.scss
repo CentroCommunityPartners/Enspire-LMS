@@ -1,0 +1,28 @@
+.site-footer__top {
+  .site-branding {
+    padding-right: 0;
+  }
+}
+.footer-menu {
+  li:not(:last-of-type) {
+    padding-right: 20px;
+  }
+}
+
+.menu-footer-bottom-container {
+  .footer-menu {
+    li a {
+      text-decoration: underline;
+      @media (max-width: 767px) {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.widget.widget_enspire_social_profile {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-bottom: 0;
+}

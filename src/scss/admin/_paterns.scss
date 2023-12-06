@@ -1,0 +1,27 @@
+
+.wp-block.block-daily-training{
+  margin-bottom: 30px !important;
+}
+
+/**
+  TEAM COLUMN
+ */
+.block-team{
+
+  .block-team-items > .block-editor-block-list__layout{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+
+    .team-member {
+      flex: 0 0 calc(33.33% - 20px);
+      margin: 10px;
+    }
+  }
+}
+
+
+.block-team .team-member {
+    border: 1px solid $purple;
+}
